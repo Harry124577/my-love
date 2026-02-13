@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dua My Love ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            color: white;
+        }
+        .card {
+            margin-top: 15%;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            display: inline-block;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.4em;
+        }
+        .heart {
+            font-size: 60px;
+            animation: beat 1s infinite;
+        }
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+        button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 1em;
+            border: none;
+            border-radius: 30px;
+            background: #ff4d6d;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #ff1e56;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="heart">❤️</div>
+        <h1>Dua, My Love</h1>
+        <p>
+            Every heartbeat of mine whispers your name.  
+            You are my today, my tomorrow, and my forever.
+        </p>
+        <p><strong>Happy Valentine’s Day 💕</strong></p>
+        <button onclick="showLove()">Click for a Surprise</button>
+    </div>
+
+    <script>
+        function showLove() {
+            alert("Dua ❤️ You are the most beautiful part of my life!");
+        }
+    </script>
+
+</body>
+</html>
